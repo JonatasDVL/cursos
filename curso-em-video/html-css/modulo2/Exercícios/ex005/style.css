@@ -1,0 +1,33 @@
+/* Medidas Absolutas 
+   cm, mm, in, px, pt, pc
+
+   Medidas Relativas
+   em, ex, rem, vw, vh, %
+
+   As duas medidas mais recomendaveis pela w3c é a "em" e "px"
+
+   Normalmente as fontes estão com um tamanho de 16px ou 1em
+
+*/ 
+
+body{
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1{
+    /* ShortHand 
+        font-style -> font-weight -> font-size -> font-family
+        
+        font-style: italic
+        font-weight: bolder
+        font-size: 3em
+        font-family: sans-serif 
+        
+    */
+    font: italic bolder 3em sans-serif;
+}
+
+h2{
+    font: normal bolder 2em sans-serif;
+}

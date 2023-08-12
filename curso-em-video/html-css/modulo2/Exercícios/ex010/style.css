@@ -1,0 +1,17 @@
+main{
+    display: block;
+    font-family: sans-serif;
+}
+
+div{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+div:hover{
+    background-color: yellow;    
+}

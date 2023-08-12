@@ -1,0 +1,39 @@
+body{
+    background: #2a2a2a;
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+main{
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #0a0a0a;
+    padding: 20px;
+    margin:auto;
+}
+
+h1{
+    font: normal normal 3em serif;
+    color: #0496FF;
+    text-shadow: 1px 1px 2px #2a2a2a;
+}
+
+#principal{
+    font: italic bolder 3em serif;
+    text-align: center;
+    color: #027BCE;
+    text-shadow: 1px 1px 2px #2a2a2a;
+}
+
+h2{ 
+    font: normal normal 2em serif;
+    color: #4BB3FD;
+    text-shadow: 1px 1px 1px #2a2a2a;
+
+}
+
+p{
+    text-align: justify;
+}
+

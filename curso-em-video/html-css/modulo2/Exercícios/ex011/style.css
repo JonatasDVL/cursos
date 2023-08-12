@@ -1,0 +1,16 @@
+h1 { /* box-level é um elemento que fica sozinho em uma linha*/
+    background-color: lightgrey;
+    border: 5px solid darkslategrey;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    /* margin: auto;  centralizar caixas, inclusive divs*/
+    margin: 20px auto 40px auto;
+    outline: 5px dashed red;
+}
+
+a { /* inlne-level é um elemento que pode ficar com outros elementos em uma mesma linha*/
+    border: 10px solid red;
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Love Larry;
+    src: url('fonts/love\ larry.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* format 
+    opentype (otf)
+    truetype (ttf)
+    embedded opentype 
+    truetype-aat (Apple Advanced Typografhy)
+    svg 
+*/
+
+body{
+    font: normal 300 0.7em 'Love Larry', Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    font: italic bolder 3em 'Kaushan Script', serif;
+}
+
+h2{
+    font: normal bolder 2em 'Kaushan Script', serif;
+}

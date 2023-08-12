@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: rgb(13, 13, 13);
+}
+
+header {
+    background: gray;
+    padding: 10px;
+}
+
+header h1 {
+    margin-left: 10px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+header nav a {
+    margin-left: 10px;
+    color: white;
+}
+
+header nav a:hover {
+    color: black;
+
+}
+
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 40px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+}
+
+main h2 {
+    color: darkslategrey;
+    font: normal bolder 2em "serif" ;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+main p {
+    font: normal normal 0.9em "arial" ;
+    padding: 5px;
+    text-align: justify;
+}
+
+main aside {
+    font: normal bolder 0.7em "serif" ;
+    padding: 5px;
+    margin-bottom: 15;
+}
+
+footer {
+    background: gray;
+    padding: 10px;
+    color: white;
+}
+

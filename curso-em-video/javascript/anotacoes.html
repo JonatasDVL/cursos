@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Anotações</title>
+</head>
+<body>
+    <h1>Anotações de Códigos JavaScript</h1>
+    
+    <h2>Aula 04</h2>
+    <p>Nessa aula foi aprendido apenas esses 3 códigos, os quais são códigos que emitem janelas</p>
+
+    <code title = "Emite uma janela de alerta no site">window.alert(`<span>mensagem</span>`)</code>
+    <code title = "Emite uma janela de confirmação no site">window.prompt(`<span>mensagem</span>`)</code>
+    <code title = "Emite uma janela de interação no site">window.prompt(`<span>mensagem</span>`)</code>
+
+    <h2>Aula 05</h2>
+    <p> Nessa aula foi aprendido sobre as variáveis, tipos primitivos e alguns códigos secundários, porém de extrema importância como os comentários</p>
+
+    <code title = "Comentário de única linha">//<span>comentário</span></code>
+    <code title = "Comentário de mais de uma linha">/*<span>comentário</span>*/</code>
+    <code title = "Informa qual é o tipo de uma variável">typeof <span>variável</span></code>
+
+    <h2>Aula 06</h2>
+    <p> Nessa aula foi aprendido sobre tratamento de dados</p>
+
+    <div class="tabela">
+        <code title = "Converte uma variável para o tipo Number e Int">Number.parseInt(<span>variável</span>)</code>
+        <code title = "Converte uma variável para o tipo Number e Float">Number.parseFloat(<span>variável</span>)</code>
+        <code title = "Converte uma variável para o tipo Number">Number(<span>variável</span>)</code>
+        <code title = "Converte uma variável para o tipo String">String(<span>variável</span>)</code><br>
+        <code title = "Informa quantos caracteres tem na string">(`<span>variável</span>`).length</code>
+        <code title = "Deixa todos os caracteres maiúsculos"><span>variável</span>.toUpperCase()</code>
+        <code title = "Deixa todos os caracteres minúsculos"><span>variável</span>.LowerCase()</code>
+        <code title = "Escreve uma mensagem no documento html">document.write(<span>mensagem</span>)</code><br>
+        <code title = "Formata um número com uma quantidade de casas decimais desejada"><span>variável</span>.toFixed(<span>n</span>)</code>
+        <code title = "Formata um número com uma quantidade de casas decimais desejada e troca alguma parte do número por outra coisa"><span>variável</span>.toFixed(<span>n</span>).replace('<span>valor</span>','<span>valor</span>')</code>
+        <code title = "Formata um número na forma monetária de algum país escolhido"><span>variável</span>.toLocalString('<span>local</span>' {style:'currency, currency:'<span>nomeMoeda</span>'})</code>
+    </div>
+    <p>Dica: "Sempre" use Template String <code>${<span>variável</span>}</code><br> ao invés de usar concatenação <code><span>+</span></code><br>.</p>
+
+    <h2>Aula 07 & 08</h2>
+    <p> Nessa aula foi aprendido sobre operadores</p>   
+    
+    <p>Aritméticos</p>
+    
+    <code title = "Soma o valor de duas variáveis ou números"><span>variável</span> + <span>variável</span></code>
+    <code title = "Subtrai o valor de duas variáveis ou números"><span>variável</span> - <span>variável</span></code>
+    <code title = "Multiplicação entre de duas variáveis ou números"><span>variável</span> * <span>variável</span></code>
+    <code title = "Divisão entre duas variáveis ou números"><span>variável</span> / <span>variável</span></code>
+    <code title = "Resto de uma divisão de duas variáveis ou números"><span>variável</span> % <span>variável</span></code>
+    <code title = "Realizar uma pontenciação no valor da variável"><span>variável</span> ** <span>variável</span></code>
+
+    <p>Atribuições</p>
+
+    <code title="A variável recebe um valor"> <span>variável</span> = <span>valor</span></code>
+
+    <p>Relacionais</p>
+
+    <code title="A variável é menor que a outra variável"> <span>variável</span> < <span>variável</span></code>
+    <code title="A variável é maior que a outra variável"> <span>variável</span> > <span>variável</span></code>
+    <code title="A variável é menor ou igual que a outra variável"> <span>variável</span> <= <span>variável</span></code>
+    <code title="A variável é maior ou igual que a outra variável"> <span>variável</span> >= <span>variável</span></code>
+    <code title="A variável é igual que a outra variável"> <span>variável</span> == <span>variável</span></code>
+    <code title="A variável é diferente que a outra variável"> <span>variável</span> != <span>variável</span></code>
+    <code title="A variável é idêntico que a outra variável"> <span>variável</span> === <span>variável</span></code>
+
+    <p>Lógicos</p>
+    
+    <code title="Operador de Negação">!</code>
+    <code title="Operador de Conjunção">&&</code>
+    <code title="Operador de Disjunção">||</code>
+
+    <h2>Aula 09 & 10</h2>
+    <p> Nessa aulas foram aprendido comandos e a lógica do DOM em JavaScript</p>
+    
+    <code title="Cria uma variável por meio do selecionamento de um objeto pelo nome da marca">var <span>variavel</span> window.document.getElementsByTagName(<span>marca</span>)[numeroDoComponente]</code>
+    <code title="Cria uma variável por meio do selecionamento de um objeto pelo nome do id">var <span>variavel</span> window.document.getElementByIdName(<span>id</span>)</code>
+    <code title="Cria uma variável por meio do selecionamento de um objeto pelo nome">var <span>variavel</span> window.document.getElementsByName(<span>nome</span>)[numeroDoComponente]</code>
+    <code title="Cria uma variável por meio do selecionamento de um objeto pelo nome da class">var <span>variavel</span> window.document.getElementsByClassName(<span>class</span>)[numeroDoComponente]</code>
+    <code title="Cria uma variável por meio do selecionamento de um objeto pelo seletor">var <span>variavel</span> window.document.querySelector(<span>seletor</span>)</code>
+
+    
+    <code title="Copia o texto de uma variavel"><span>variavel</span>.innerText</code>
+    <code title="Copia o html de uma variavel"><span>variavel</span>.innerHTML</code>
+</body>
+</html>
+
+
