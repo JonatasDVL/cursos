@@ -2,15 +2,11 @@
 
 lista = []
 
-x = 0
-loop do
+3.times do
     print("Digite um número: ")
     numero = gets.chomp.to_f
     lista.push(numero ** 2)
-    if x == 2
-        break
-    end 
-    x += 1
 end
 
-puts (lista)
+puts(lista)
+print("#{lista}")
