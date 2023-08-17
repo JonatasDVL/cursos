@@ -4,11 +4,11 @@
 
 numeros = {a: 10, b: 30, c: 50, d:25}
 
-chaveMaior = 0
-valorMaior = "senha"
+chaveMaior = nil
+valorMaior = nil
 
 numeros.each do |chave, valor|
-    if(valorMaior == "senha")
+    if(valorMaior == nil)
         chaveMaior = chave
         valorMaior = valor
     elsif(valorMaior < valor)
